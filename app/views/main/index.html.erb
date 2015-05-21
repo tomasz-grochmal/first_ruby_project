@@ -1,3 +1,25 @@
-<h1>Main#index</h1>
-<h3>Main Page</h3>
+<head>
+<script language="javascript" type="text/javascript">
+function print_data()
+{
+  var data = Date()
+  document.getElementById("title").innerHTML = "duperka"
+  document.append()
+}
+
+function next_func()
+{
+  document.getElementById("title").innerHTML = ""
+}
+</script>
+</head>
+
+<body>
+<h1 id="title">Main Page</h1>
+<form>
+  <input type="button" value="Print" onclick="print_data()" />
+  <input type="button" value="delate" onclick="next_func()"/>
+</form>
+<a href="#" onclick="this.style.backgroundColor='#009900'">Paint it</a>
 <p>Find me in app/views/main/index.html.erb</p>
+</body>
